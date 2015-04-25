@@ -1,0 +1,29 @@
+{
+  "name": "TiddlyPad",
+  "main": "index.html",
+  "version": "0.0.1",
+  "description": "Clean desktop app for TiddlyWiki.",
+  "keywords": [
+    "TiddlyWiki",
+    "Wiki"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octalmage/TiddlyPad"
+  },
+  "window": {
+    "title": "TiddlyPad",
+    "toolbar": false,
+    "frame": true
+  },
+  "author": "Jason Stallings <jason@stallin.gs>",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/octalmage/TiddlyPad/issues"
+  },
+  "homepage": "https://github.com/octalmage/TiddlyPad",
+  "chromium-args": "--disable-web-security",
+  "webkit": {
+    "plugin": true
+  }
+}
